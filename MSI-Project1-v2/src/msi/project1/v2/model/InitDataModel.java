@@ -1,4 +1,4 @@
-package com.msi.project1.model;
+package msi.project1.v2.model;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

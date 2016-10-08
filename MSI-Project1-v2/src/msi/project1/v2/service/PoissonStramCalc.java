@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.msi.project1.service;
+package msi.project1.v2.service;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
