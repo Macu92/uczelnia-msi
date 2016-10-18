@@ -4,7 +4,7 @@ lambda = 0.6,1.2,......,7.20u=5.(znak zbior pusty)
 
 Obliczyc miary wydajnosci, przedstawic je w formie wykresow:
 1.Prawdopodobinestwo stanow fazowych systemu tylko dla lambda =4.8 (stanow bd 22)
-2.Prawdopodobienstwo straty zgloszenia dla wszystkich lambd  = 0.6,1.2...7.2
+2.Prawdopodobienstwo straty zgloszenia dla wszystkich lambd  = 0.6,1.2...7.2 dla ostniego wyniku (22)
 3.srednia liczba zgloszen/zadan w buforze  Vdeskagora
 4. srednia liczb zgloszen na stanowisko obslugi l deskagora
 5.sredni czas oczekiwana w kolejce w deskagora
