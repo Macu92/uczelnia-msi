@@ -56,7 +56,7 @@ public class Window extends JFrame {
                 for (String[] s : getPropabilityTable()) {
                     dcd.addValue((double) Double.valueOf(s[1]),"", s[0]);
                 }
-                jfc = ChartFactory.createLineChart("Wykres prawdopodobieństwa blokady", "lambda", "Pi", dcd, PlotOrientation.VERTICAL, true, true, false);
+                jfc = ChartFactory.createLineChart("b)	Srednia liczbe zadan w kolejce dla wszystkich lambd ", "lambda", "Pi", dcd, PlotOrientation.VERTICAL, true, true, false);
                 CategoryPlot plot = jfc.getCategoryPlot();
                 plot.setRangeGridlinePaint(Color.black);
                 ChartFrame cf = new ChartFrame("Prawdopodobienstwo", jfc, true);
@@ -92,18 +92,19 @@ public class Window extends JFrame {
 
     private String[][] getPropabilityTable() {
         String[][] table = {
-            {"0", "0.00000000000000000004048451"},
-            {"1", "0.00000000000007332459421341"},
-            {"2", "0.00000000030798707422831600"},
-            {"3", "0.00000010521299191562000000"},
-            {"4", "0.00000877489575282414000000"},
-            {"5", "0.00028278485321736000000000"},
-            {"6", "0.00420205484560207000000000"},
-            {"7", "0.02863895640071260000000000"},
-            {"8", "0.09077043366632230000000000"},
-            {"9", "0.16974134888352100000000000"},
-            {"10", "0.24296489346011500000000000"},
-            {"11", "0.30565584561296400000000000"}//,
+            {"0", "1.681210689"},
+            {"1", "5.041020712"},
+            {"2", "6.668385909"},
+            {"3", "7.500133297"},
+            {"4", "8.000016202"},
+            {"5", "8.333336057"},
+            {"6", "8.571429154"}//,
+//            {"7", "0.011882501429576000000000"},
+//            {"8", "0.041588755003516000000000"},
+//            {"9", "0.116448514009845000000000"},
+//            {"10", "0.244541879420674000000000"},
+//            {"11", "0.342358631188943000000000"},
+//            {"12", "0.239651041832260000000000"}//,
 //            {"12", "0.041353864"},
 //            {"13", "0.039699709"},
 //            {"14", "0.038111721"},
