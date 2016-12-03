@@ -38,7 +38,7 @@ public class Window extends JFrame {
     final JTable table = new JTable(getPropabilityTable(), names);
     String[] namesDist = {"t", "lambda=2", "labmda=10"};
     final JTable tableDist = new JTable(getComultativeDistributionTable(), namesDist);
-    JButton propButton = new JButton("Pokaz diagram prawdopodobienstwa blokady");
+    JButton propButton = new JButton("Pokaz diagram prawdopodobienstwa straty dla ruchu tranzytowego");
     JButton distButton = new JButton("Pokaz diagram dystrybuanty");
 
     JFreeChart jfc;
@@ -56,7 +56,7 @@ public class Window extends JFrame {
                 for (String[] s : getPropabilityTable()) {
                     dcd.addValue((double) Double.valueOf(s[1]),"", s[0]);
                 }
-                jfc = ChartFactory.createLineChart("b)	Srednia liczbe zadan w kolejce dla wszystkich lambd ", "lambda", "Pi", dcd, PlotOrientation.VERTICAL, true, true, false);
+                jfc = ChartFactory.createLineChart("Prawdopodobieństo straty dla ruchu tranzytowego dla wszystkich lambd", "nr pary lambd", "Pstr", dcd, PlotOrientation.VERTICAL, true, true, false);
                 CategoryPlot plot = jfc.getCategoryPlot();
                 plot.setRangeGridlinePaint(Color.black);
                 ChartFrame cf = new ChartFrame("Prawdopodobienstwo", jfc, true);
@@ -92,13 +92,13 @@ public class Window extends JFrame {
 
     private String[][] getPropabilityTable() {
         String[][] table = {
-            {"0", "1.681210689"},
-            {"1", "5.041020712"},
-            {"2", "6.668385909"},
-            {"3", "7.500133297"},
-            {"4", "8.000016202"},
-            {"5", "8.333336057"},
-            {"6", "8.571429154"}//,
+            {"0", "0.00000000008858240957026"},
+            {"1", "0.00000003541455716416950"},
+            {"2", "0.00000108423540721003000"},
+            {"3", "0.00001163929130605120000"},
+            {"4", "0.00007034681322020440000"},
+            {"5", "0.00029493851779430200000"},
+            {"6", "0.00095707095617853300000"}//,
 //            {"7", "0.011882501429576000000000"},
 //            {"8", "0.041588755003516000000000"},
 //            {"9", "0.116448514009845000000000"},
