@@ -60,6 +60,9 @@ public class Window extends JFrame {
                 CategoryPlot plot = jfc.getCategoryPlot();
                 plot.setRangeGridlinePaint(Color.black);
                 ChartFrame cf = new ChartFrame("Prawdopodobienstwo", jfc, true);
+//                 JFreeChart jfc2 = ChartFactory.createLineChart("Prawdopodobieństo straty dla ruchu tranzytowego dla wszystkich lambd", "nr pary lambd", "Pstr", dcd, PlotOrientation.VERTICAL, true, true, false);
+//                CategoryPlot plot2 = jfc2.getCategoryPlot();
+//                plot2.setRangeGridlinePaint(Color.red);
                 cf.setSize(800, 500);
                 cf.setVisible(true);
             }
