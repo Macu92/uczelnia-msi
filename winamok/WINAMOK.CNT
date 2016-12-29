@@ -1,0 +1,25 @@
+:Base WinAmok.hlp
+:Title Pomoc programu WinAMOK 1.0
+1 Menu programu
+2 Plik=menu_file
+2 Edycja=menu_edit
+2 Obliczenia=menu_obliczenia
+2 Widok=menu_view
+2 Okno=menu_window
+2 Pomoc=menu_help
+1 Przegl¹danie wyników
+2 G³ówne okno wyników=HIDR_RESULTTYPE
+2 Okno selekcji=okno_selekcji
+2 Okno prezentacji=okno_prezentacji
+1 Jêzyk opisu modeli kolejkowych WinAMOK-a
+2 Podstawowe zasady opisu modeli=j_podstawy
+2 Postaæ zapisu w jêzyku WinAMOK-u – g³ówna rama =j_rama
+2 Deklaracja obiektów i klas sieci=j_deklaracja
+2 Opis obiektów sieci oraz ich parametrów=j_obiekty
+2 Parametry obiektów stosowane w sekcji opisu=j_parametry
+2 Lista rodzajów klientów=j_klienci
+2 Definicje parametrów obiektów=j_definicje
+2 Definicja parametru SCHEDULE=j_schedule
+2 Definicja parametru SERVICE=j_service
+2 Definicja parametru TRANSITION=j_transit
+2 Parametry liczbowe=j_liczby
