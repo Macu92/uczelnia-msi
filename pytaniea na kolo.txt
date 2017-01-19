@@ -1,0 +1,7 @@
+STWORZYC TABELE wraz z powiazaniami i ograniczeniami
+modyfikacaj tabel nadawawnie ograniczen etc
+tworzenie wyzwalaczy np dodanie sekwencji do kucza glwonego
+implementacja procedur i tworzenie perspoektyw
+
+(public|protected|private|static|\s)( \w*)*\s([a-z]+\w*) *\( *\w* +([a-z]+\w*) *\) *\{+[^;]
+(public|protected|private|static| )( \w*)* ([a-z]+\w*) *(\( *\w* +([a-z]+\w*| *|) *\)|\(\)) *\{+[^;]
